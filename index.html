@@ -1,0 +1,41 @@
+<!--
+CHOOSE-YOUR-OWN-ADVENTURE
+
+You will create your own CYOA. If you are unsure of what a CYOA is, check out this link: https://chooseyourstory.com/
+
+There are only a few requirements:
+* must use radio buttons, checkboxes and text input, at least one of each
+* must have at least 10 choices the user must make
+* must have functions
+* must have If-statements
+* must have complete CSS and HTML
+* must be uploaded to Github and included on your profile page
+
+You may design the program however you see. I want to see how you put the pieces together. We have done ALOT of exercises and notes on various techniques for designing programs and using functions. Time for you to put it all together on your own. 
+
+This work is a culmination of everything we have done in the class this semester. Please give me your best ORIGINAL work.
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+    <form id="myform">
+      <h1 id='title'>Rope burn</h1>
+      <image src='Rope.jpg'  height='300px' width='400px'><br>
+      <h3>Welcome to rope burn. This is a CYOA game(create your own adventure game) Where you go through a school week with your friend. Your outcome is created by YOUR choices. Have fun!</h3>
+      <input type="button" value="Start!!!!!" id="startbutton" onclick="runit()">
+      </form>
+      </div>
+      <div id="output"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
